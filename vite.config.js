@@ -6,8 +6,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
     build: {
         lib: {
-            entry: path.resolve(__dirname, 'src/lib/index.js'),
-            name: 'react-test-renderer',
+            entry:'src/lib/index.js',
+            name: 'kendo-filter-string-parser',
             fileName: (format) => `kendo-filter-string-parser.${format}.js`
         }
     },
