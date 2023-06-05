@@ -1,4 +1,4 @@
-# kendo-filterstring-parser
+# kendo-filter-string-parser
 
 # To run in development
 

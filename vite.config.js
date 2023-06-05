@@ -8,7 +8,7 @@ export default defineConfig({
         lib: {
             entry: path.resolve(__dirname, 'src/lib/index.js'),
             name: 'react-test-renderer',
-            fileName: (format) => `kendo-filterstring-parser.${format}.js`
+            fileName: (format) => `kendo-filter-string-parser.${format}.js`
         }
     },
     rollupOptions: {

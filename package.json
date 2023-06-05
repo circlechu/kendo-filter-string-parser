@@ -1,19 +1,19 @@
 {
-  "name": "kendo-filterstring-parser",
+  "name": "kendo-filter-string-parser",
   "version": "1.0.0",
-  "description": "kendo-filterstring-parser",
+  "description": "kendo-filter-string-parser",
   "author": "",
   "keywords": [],
   "files": [
     "dist",
     "README.md"
   ],
-  "main": "./dist/kendo-filterstring-parser.umd.js",
-  "module": "./dist/kendo-filterstring-parser.es.js",
+  "main": "./dist/kendo-filter-string-parser.umd.js",
+  "module": "./dist/kendo-filter-string-parser.es.js",
   "exports": {
     ".": {
-      "import": "./dist/kendo-filterstring-parser.es.js",
-      "require": "./dist/kendo-filterstring-parser.umd.js"
+      "import": "./dist/kendo-filter-string-parser.es.js",
+      "require": "./dist/kendo-filter-string-parser.umd.js"
     }
   },
   "scripts": {
