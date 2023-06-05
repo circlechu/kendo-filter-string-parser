@@ -15,13 +15,13 @@ export default defineConfig({
         // externalize deps that shouldn't be bundled
         // into your library
         external: [
-            'lodash', 'moment'
+            // 'lodash', 'moment'
         ],
         output: {
             // Provide global variables to use in the UMD build
             // for externalized deps
             globals: {
-                moment: 'moment'
+                // moment: 'moment'
             }
         }
     }
