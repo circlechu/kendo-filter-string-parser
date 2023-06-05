@@ -1,19 +1,19 @@
 {
-  "name": "react-library-vite",
-  "version": "0.0.0",
-  "description": "A scaffold app for building a React component/library using Vite, ready for publication to npm",
-  "author": "Tom Southall",
+  "name": "kendo-filterstring-parser",
+  "version": "1.0.0",
+  "description": "kendo-filterstring-parser",
+  "author": "",
   "keywords": [],
   "files": [
     "dist",
     "README.md"
   ],
-  "main": "./dist/react-library-vite.umd.js",
-  "module": "./dist/react-library-vite.es.js",
+  "main": "./dist/kendo-filterstring-parser.umd.js",
+  "module": "./dist/kendo-filterstring-parser.es.js",
   "exports": {
     ".": {
-      "import": "./dist/react-library-vite.es.js",
-      "require": "./dist/react-library-vite.umd.js"
+      "import": "./dist/kendo-filterstring-parser.es.js",
+      "require": "./dist/kendo-filterstring-parser.umd.js"
     }
   },
   "scripts": {
@@ -24,6 +24,8 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
     "prop-types": "^15.8.1"
   },
   "devDependencies": {
@@ -34,23 +36,8 @@
     "eslint": "^8.9.0",
     "eslint-plugin-react": "^7.28.0",
     "jsdom": "^19.0.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-test-renderer": "^17.0.2",
     "vite": "^2.8.0",
     "vitest": "^0.3.4"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   },
   "eslintConfig": {
     "env": {
